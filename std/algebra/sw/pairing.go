@@ -19,9 +19,9 @@ package sw
 import (
 	"math/big"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/fields"
 	"github.com/consensys/gurvy/utils"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/algebra/fields"
 )
 
 // PairingContext contains useful info about the pairing

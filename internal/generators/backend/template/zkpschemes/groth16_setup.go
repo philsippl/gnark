@@ -7,7 +7,7 @@ import (
 	{{ template "import_curve" . }}
 	{{ template "import_backend" . }}
 	{{ template "import_fft" . }}
-	"github.com/consensys/gnark/internal/utils/parallel"
+	"github.com/philsippl/gnark/internal/utils/parallel"
 )
 
 // ProvingKey is used by a Groth16 prover to encode a proof of a statement

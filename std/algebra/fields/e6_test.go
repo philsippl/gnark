@@ -19,10 +19,10 @@ package fields
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
 	"github.com/consensys/gurvy/bls377"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
 )
 
 func getBLS377ExtensionFp6(cs *frontend.ConstraintSystem) Extension {

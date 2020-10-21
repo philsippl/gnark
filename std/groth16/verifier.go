@@ -17,9 +17,9 @@ limitations under the License.
 package groth16
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/fields"
-	"github.com/consensys/gnark/std/algebra/sw"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/algebra/fields"
+	"github.com/philsippl/gnark/std/algebra/sw"
 )
 
 // Proof represents a groth16 proof in a r1cs

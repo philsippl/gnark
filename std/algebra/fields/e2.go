@@ -19,11 +19,11 @@ package fields
 import (
 	"math/big"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy/bls377"
 	"github.com/consensys/gurvy/bls377/fp"
 	"github.com/consensys/gurvy/bw761/fr"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/frontend"
 )
 
 // E2 element in a quadratic extension

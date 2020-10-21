@@ -17,9 +17,9 @@ package r1cs
 import (
 	"math/big"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/r1cs/r1c"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/r1cs/r1c"
 )
 
 // UntypedR1CS decsribes a set of UntypedR1CS constraint

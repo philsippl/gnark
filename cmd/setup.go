@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/backend/r1cs"
-	"github.com/consensys/gnark/io"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/backend/r1cs"
+	"github.com/philsippl/gnark/io"
 	"github.com/spf13/cobra"
 )
 

@@ -22,7 +22,7 @@ import (
 
 	"errors"
 
-	"github.com/consensys/gnark/backend"
+	"github.com/philsippl/gnark/backend"
 )
 
 var errPairingCheckFailed = errors.New("pairing doesn't match")

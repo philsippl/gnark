@@ -5,8 +5,8 @@ import (
 
 	"github.com/consensys/gurvy"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
 )
 
 func TestPreimage(t *testing.T) {

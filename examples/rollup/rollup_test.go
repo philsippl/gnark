@@ -19,8 +19,8 @@ package rollup
 import (
 	"testing"
 
-	mimc "github.com/consensys/gnark/crypto/hash/mimc/bn256"
 	"github.com/consensys/gurvy/bn256/fr"
+	mimc "github.com/philsippl/gnark/crypto/hash/mimc/bn256"
 )
 
 func TestOperatorReadAccount(t *testing.T) {

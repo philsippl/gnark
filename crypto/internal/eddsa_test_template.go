@@ -5,7 +5,7 @@ const eddsaTestTemplate = `
 import (
 	"testing"
 
-	"github.com/consensys/gnark/crypto/hash/mimc/{{toLower .Curve}}"
+	"github.com/philsippl/gnark/crypto/hash/mimc/{{toLower .Curve}}"
 	"github.com/consensys/gurvy/{{toLower .Curve}}/fr"
 )
 

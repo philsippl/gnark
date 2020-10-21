@@ -20,9 +20,9 @@ import (
 	"hash"
 	"testing"
 
-	mimc "github.com/consensys/gnark/crypto/hash/mimc/bn256"
-	eddsa "github.com/consensys/gnark/crypto/signature/eddsa/bn256"
 	"github.com/consensys/gurvy/bn256/fr"
+	mimc "github.com/philsippl/gnark/crypto/hash/mimc/bn256"
+	eddsa "github.com/philsippl/gnark/crypto/signature/eddsa/bn256"
 )
 
 func createAccount(i int, h hash.Hash) (Account, eddsa.PrivateKey) {

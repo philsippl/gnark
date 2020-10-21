@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/io"
-	"github.com/consensys/gnark/std/hash/mimc"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/io"
+	"github.com/philsippl/gnark/std/hash/mimc"
 )
 
 func main() {

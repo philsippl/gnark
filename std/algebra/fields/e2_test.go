@@ -19,11 +19,11 @@ package fields
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
 	"github.com/consensys/gurvy/bls377"
 	"github.com/consensys/gurvy/bls377/fp"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
 )
 
 type e2TestCircuit struct {

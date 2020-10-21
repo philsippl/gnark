@@ -19,10 +19,10 @@ package sw
 import (
 	"math/big"
 
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy/bls377"
 	"github.com/consensys/gurvy/bls377/fp"
 	"github.com/consensys/gurvy/bw761/fr"
+	"github.com/philsippl/gnark/frontend"
 )
 
 // G1Jac point in Jacobian coords

@@ -22,13 +22,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/crypto/accumulator/merkletree"
-	"github.com/consensys/gnark/crypto/hash/mimc/bn256"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/hash/mimc"
 	"github.com/consensys/gurvy"
 	"github.com/consensys/gurvy/bn256/fr"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/crypto/accumulator/merkletree"
+	"github.com/philsippl/gnark/crypto/hash/mimc/bn256"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/hash/mimc"
 )
 
 type merkleCircuit struct {

@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/internal/backend/circuits"
-	"github.com/consensys/gnark/io"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/internal/backend/circuits"
+	"github.com/philsippl/gnark/io"
 )
 
 func TestIntegration(t *testing.T) {

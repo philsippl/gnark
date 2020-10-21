@@ -19,14 +19,14 @@ package mimc
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
+	"github.com/philsippl/gnark/backend/groth16"
 
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/frontend"
 
-	mimcbls377 "github.com/consensys/gnark/crypto/hash/mimc/bls377"
-	mimcbls381 "github.com/consensys/gnark/crypto/hash/mimc/bls381"
-	mimcbn256 "github.com/consensys/gnark/crypto/hash/mimc/bn256"
+	mimcbls377 "github.com/philsippl/gnark/crypto/hash/mimc/bls377"
+	mimcbls381 "github.com/philsippl/gnark/crypto/hash/mimc/bls381"
+	mimcbn256 "github.com/philsippl/gnark/crypto/hash/mimc/bn256"
 
 	fr_bls377 "github.com/consensys/gurvy/bls377/fr"
 	fr_bls381 "github.com/consensys/gurvy/bls381/fr"

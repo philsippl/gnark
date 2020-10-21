@@ -9,8 +9,8 @@ import (
 	{{ template "import_fft" . }}
 	"runtime"
 	"sync"
-	"github.com/consensys/gnark/internal/utils"
-	"github.com/consensys/gnark/backend"
+	"github.com/philsippl/gnark/internal/utils"
+	"github.com/philsippl/gnark/backend"
 )
 
 

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/consensys/gnark/backend/r1cs"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/io"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend/r1cs"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/io"
 )
 
 const n = 1000000

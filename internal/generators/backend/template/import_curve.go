@@ -36,26 +36,26 @@ const ImportCurve = `
 
 {{ define "import_backend" }}
 {{if eq .Curve "BLS377"}}
-	{{toLower .Curve}}backend "github.com/consensys/gnark/internal/backend/bls377"
+	{{toLower .Curve}}backend "github.com/philsippl/gnark/internal/backend/bls377"
 {{else if eq .Curve "BLS381"}}
-	{{toLower .Curve}}backend "github.com/consensys/gnark/internal/backend/bls381"
+	{{toLower .Curve}}backend "github.com/philsippl/gnark/internal/backend/bls381"
 {{else if eq .Curve "BN256"}}
-	{{toLower .Curve}}backend "github.com/consensys/gnark/internal/backend/bn256"
+	{{toLower .Curve}}backend "github.com/philsippl/gnark/internal/backend/bn256"
 {{ else if eq .Curve "BW761"}}
-	{{toLower .Curve}}backend "github.com/consensys/gnark/internal/backend/bw761"
+	{{toLower .Curve}}backend "github.com/philsippl/gnark/internal/backend/bw761"
 {{end}}
 
 {{end}}
 
 {{ define "import_fft" }}
 {{if eq .Curve "BLS377"}}
-	"github.com/consensys/gnark/internal/backend/bls377/fft"
+	"github.com/philsippl/gnark/internal/backend/bls377/fft"
 {{else if eq .Curve "BLS381"}}
-	"github.com/consensys/gnark/internal/backend/bls381/fft"
+	"github.com/philsippl/gnark/internal/backend/bls381/fft"
 {{else if eq .Curve "BN256"}}
-	"github.com/consensys/gnark/internal/backend/bn256/fft"
+	"github.com/philsippl/gnark/internal/backend/bn256/fft"
 {{ else if eq .Curve "BW761"}}
-	"github.com/consensys/gnark/internal/backend/bw761/fft"
+	"github.com/philsippl/gnark/internal/backend/bw761/fft"
 {{end}}
 {{end}}
 

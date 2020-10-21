@@ -20,18 +20,18 @@ import (
 	curve "github.com/consensys/gurvy/bn256"
 	"github.com/consensys/gurvy/bn256/fr"
 
-	bn256backend "github.com/consensys/gnark/internal/backend/bn256"
+	bn256backend "github.com/philsippl/gnark/internal/backend/bn256"
 
 	"testing"
 
-	bn256groth16 "github.com/consensys/gnark/internal/backend/bn256/groth16"
+	bn256groth16 "github.com/philsippl/gnark/internal/backend/bn256/groth16"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/backend/r1cs"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/internal/backend/circuits"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/backend/r1cs"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/internal/backend/circuits"
 )
 
 func TestCircuits(t *testing.T) {

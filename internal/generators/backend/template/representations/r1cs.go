@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"math/big"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/r1cs/r1c"
-	"github.com/consensys/gnark/frontend"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/r1cs/r1c"
+	"github.com/philsippl/gnark/frontend"
 
 	{{ template "import_fr" . }}
 )

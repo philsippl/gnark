@@ -19,11 +19,11 @@ package sw
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/fields"
 	"github.com/consensys/gurvy"
 	"github.com/consensys/gurvy/bls377"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/algebra/fields"
 )
 
 type lineEvalBLS377 struct {

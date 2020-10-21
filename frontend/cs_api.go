@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/r1cs/r1c"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/r1cs/r1c"
 )
 
 // Add returns res = i1+i2+...in

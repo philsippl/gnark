@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
 	"github.com/consensys/gurvy/bls377/fr"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
 
 	"github.com/consensys/gurvy/bls377"
 )

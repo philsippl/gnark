@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/consensys/bavard"
-	"github.com/consensys/gnark/internal/generators/backend/template"
-	"github.com/consensys/gnark/internal/generators/backend/template/fft"
-	"github.com/consensys/gnark/internal/generators/backend/template/representations"
-	"github.com/consensys/gnark/internal/generators/backend/template/zkpschemes"
+	"github.com/philsippl/gnark/internal/generators/backend/template"
+	"github.com/philsippl/gnark/internal/generators/backend/template/fft"
+	"github.com/philsippl/gnark/internal/generators/backend/template/representations"
+	"github.com/philsippl/gnark/internal/generators/backend/template/zkpschemes"
 )
 
 //go:generate go run main.go

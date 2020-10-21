@@ -17,8 +17,8 @@ limitations under the License.
 package fields
 
 import (
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy/bls377"
+	"github.com/philsippl/gnark/frontend"
 )
 
 // Extension stores the non residue elmt for an extension of type Fp->Fp2->Fp6->Fp12 (Fp2 = Fp(u), Fp6 = Fp2(v), Fp12 = Fp6(w))

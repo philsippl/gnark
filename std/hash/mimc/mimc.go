@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/consensys/gnark/frontend"
+	"github.com/philsippl/gnark/frontend"
 
 	"github.com/consensys/gurvy"
 )

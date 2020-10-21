@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/backend/r1cs"
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
 	bls381fr "github.com/consensys/gurvy/bls381/fr"
 	bn256fr "github.com/consensys/gurvy/bn256/fr"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/backend/r1cs"
+	"github.com/philsippl/gnark/frontend"
 )
 
 func main() {

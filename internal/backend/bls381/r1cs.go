@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/r1cs/r1c"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/r1cs/r1c"
 
 	"github.com/consensys/gurvy/bls381/fr"
 )

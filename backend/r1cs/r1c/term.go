@@ -14,7 +14,7 @@
 
 package r1c
 
-import "github.com/consensys/gnark/backend"
+import "github.com/philsippl/gnark/backend"
 
 // Term lightweight version of a term, no pointers
 // first 4 bits are reserved

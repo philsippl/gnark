@@ -19,12 +19,12 @@ package mimc
 import (
 	"math/big"
 
-	"github.com/consensys/gnark/crypto/hash/mimc/bls377"
-	"github.com/consensys/gnark/crypto/hash/mimc/bls381"
-	"github.com/consensys/gnark/crypto/hash/mimc/bn256"
+	"github.com/philsippl/gnark/crypto/hash/mimc/bls377"
+	"github.com/philsippl/gnark/crypto/hash/mimc/bls381"
+	"github.com/philsippl/gnark/crypto/hash/mimc/bn256"
 
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/frontend"
 )
 
 var encryptFuncs map[gurvy.ID]func(*frontend.ConstraintSystem, MiMC, frontend.Variable, frontend.Variable) frontend.Variable

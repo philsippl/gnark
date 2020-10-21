@@ -1,8 +1,8 @@
 package circuits
 
 import (
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/frontend"
 )
 
 type rangeCheckConstantCircuit struct {

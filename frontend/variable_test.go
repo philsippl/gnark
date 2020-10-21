@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/consensys/gnark/backend"
+	"github.com/philsippl/gnark/backend"
 )
 
 func TestStructTags(t *testing.T) {

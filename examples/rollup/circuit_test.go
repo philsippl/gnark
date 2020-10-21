@@ -19,11 +19,11 @@ package rollup
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/accumulator/merkle"
-	"github.com/consensys/gnark/std/hash/mimc"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/accumulator/merkle"
+	"github.com/philsippl/gnark/std/hash/mimc"
 )
 
 type circuitSignature struct {

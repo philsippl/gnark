@@ -19,8 +19,8 @@ package eddsa
 import (
 	"testing"
 
-	"github.com/consensys/gnark/crypto/hash/mimc/bn256"
 	"github.com/consensys/gurvy/bn256/fr"
+	"github.com/philsippl/gnark/crypto/hash/mimc/bn256"
 )
 
 func TestEddsa(t *testing.T) {

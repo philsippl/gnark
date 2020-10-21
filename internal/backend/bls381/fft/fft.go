@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"runtime"
 
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/philsippl/gnark/internal/utils"
 
 	"github.com/consensys/gurvy/bls381/fr"
 )

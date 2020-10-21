@@ -19,13 +19,13 @@ package eddsa
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	mimc_bn256 "github.com/consensys/gnark/crypto/hash/mimc/bn256"
-	eddsa_bn256 "github.com/consensys/gnark/crypto/signature/eddsa/bn256"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/twistededwards"
 	"github.com/consensys/gurvy"
 	fr_bn256 "github.com/consensys/gurvy/bn256/fr"
+	"github.com/philsippl/gnark/backend/groth16"
+	mimc_bn256 "github.com/philsippl/gnark/crypto/hash/mimc/bn256"
+	eddsa_bn256 "github.com/philsippl/gnark/crypto/signature/eddsa/bn256"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/algebra/twistededwards"
 )
 
 type eddsaCircuit struct {

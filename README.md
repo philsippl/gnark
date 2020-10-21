@@ -1,5 +1,5 @@
 # gnark
-[![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)  [![Go Report Card](https://goreportcard.com/badge/github.com/consensys/gnark)](https://goreportcard.com/badge/github.com/consensys/gnark) [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/consensys/gnark)](https://pkg.go.dev/mod/github.com/consensys/gnark)
+[![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)  [![Go Report Card](https://goreportcard.com/badge/github.com/philsippl/gnark)](https://goreportcard.com/badge/github.com/philsippl/gnark) [![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/philsippl/gnark)](https://pkg.go.dev/mod/github.com/philsippl/gnark)
 
 
 `gnark` is a framework to execute (and verify) algorithms in zero-knowledge. It offers a high-level API to easily design circuits and fast implementation of state of the art ZKP schemes. 
@@ -33,7 +33,7 @@ You'll need to [install Go](https://golang.org/doc/install).
 ### Install `gnark` 
 
 ```bash
-go get github.com/consensys/gnark
+go get github.com/philsippl/gnark
 ```
 
 Note if that if you use go modules, in `go.mod` the module path is case sensitive (use `consensys` and not `ConsenSys`).
@@ -52,9 +52,9 @@ Note if that if you use go modules, in `go.mod` the module path is case sensitiv
 
 ### Documentation
 
-You can find the [documentation here](https://pkg.go.dev/mod/github.com/consensys/gnark). In particular:
-* [frontend](https://pkg.go.dev/github.com/consensys/gnark/frontend) (writing a circuit)
-* [groth16](https://pkg.go.dev/github.com/consensys/gnark/backend/groth16) (running groth16 workflow)
+You can find the [documentation here](https://pkg.go.dev/mod/github.com/philsippl/gnark). In particular:
+* [frontend](https://pkg.go.dev/github.com/philsippl/gnark/frontend) (writing a circuit)
+* [groth16](https://pkg.go.dev/github.com/philsippl/gnark/backend/groth16) (running groth16 workflow)
 
 
 ### Examples and `gnark` usage
@@ -229,7 +229,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of condu
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/consensys/gnark/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/philsippl/gnark/tags). 
 
 
 ## License

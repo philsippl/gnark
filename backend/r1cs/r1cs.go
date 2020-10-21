@@ -16,12 +16,12 @@
 package r1cs
 
 import (
-	backend_bls377 "github.com/consensys/gnark/internal/backend/bls377"
-	backend_bls381 "github.com/consensys/gnark/internal/backend/bls381"
-	backend_bn256 "github.com/consensys/gnark/internal/backend/bn256"
-	backend_bw761 "github.com/consensys/gnark/internal/backend/bw761"
-	"github.com/consensys/gnark/io"
 	"github.com/consensys/gurvy"
+	backend_bls377 "github.com/philsippl/gnark/internal/backend/bls377"
+	backend_bls381 "github.com/philsippl/gnark/internal/backend/bls381"
+	backend_bn256 "github.com/philsippl/gnark/internal/backend/bn256"
+	backend_bw761 "github.com/philsippl/gnark/internal/backend/bw761"
+	"github.com/philsippl/gnark/io"
 )
 
 // R1CS represents a rank 1 constraint system

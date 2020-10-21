@@ -23,13 +23,13 @@ import (
 	curve "github.com/consensys/gurvy/bls381"
 	"github.com/consensys/gurvy/bls381/fr"
 
-	bls381backend "github.com/consensys/gnark/internal/backend/bls381"
+	bls381backend "github.com/philsippl/gnark/internal/backend/bls381"
 
-	"github.com/consensys/gnark/internal/backend/bls381/fft"
+	"github.com/philsippl/gnark/internal/backend/bls381/fft"
 
 	"runtime"
 
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/philsippl/gnark/internal/utils"
 )
 
 // Proof represents a Groth16 proof that was encoded with a ProvingKey and can be verified

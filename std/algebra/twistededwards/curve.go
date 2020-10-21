@@ -20,11 +20,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/consensys/gnark/backend"
 	"github.com/consensys/gurvy"
 	edbls381 "github.com/consensys/gurvy/bls381/twistededwards"
 	"github.com/consensys/gurvy/bn256/fr"
 	edbn256 "github.com/consensys/gurvy/bn256/twistededwards"
+	"github.com/philsippl/gnark/backend"
 )
 
 // EdCurve stores the info on the chosen edwards curve

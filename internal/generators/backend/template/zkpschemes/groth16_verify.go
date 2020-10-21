@@ -6,7 +6,7 @@ const Groth16Verify = `
 import (
 	{{ template "import_curve" . }}
 	{{ template "import_backend" . }}
-	"github.com/consensys/gnark/backend"
+	"github.com/philsippl/gnark/backend"
 	"errors"
 )
 

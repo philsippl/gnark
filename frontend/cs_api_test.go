@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/r1cs/r1c"
 	"github.com/consensys/gurvy"
 	"github.com/leanovate/gopter"
 	"github.com/leanovate/gopter/commands"
 	"github.com/leanovate/gopter/gen"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/r1cs/r1c"
 )
 
 var variableName big.Int

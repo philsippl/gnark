@@ -7,7 +7,7 @@ import (
 	"math/bits"
 	"runtime"
 
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/philsippl/gnark/internal/utils"
 
 	{{ template "import_curve" . }}
 )
@@ -225,7 +225,7 @@ import (
 	"math/bits"
 	"runtime"
 
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/philsippl/gnark/internal/utils"
 
 	{{ template "import_fr" . }}
 )

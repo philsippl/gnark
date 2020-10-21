@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/io"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/io"
 )
 
 func main() {

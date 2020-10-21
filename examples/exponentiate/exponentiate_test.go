@@ -3,9 +3,9 @@ package main
 import (
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend/groth16"
+	"github.com/philsippl/gnark/frontend"
 )
 
 func TestExponentiate(t *testing.T) {

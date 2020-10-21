@@ -17,8 +17,8 @@ limitations under the License.
 package fields
 
 import (
-	"github.com/consensys/gnark/frontend"
 	"github.com/consensys/gurvy/bls377"
+	"github.com/philsippl/gnark/frontend"
 )
 
 // E6 element in a quadratic extension

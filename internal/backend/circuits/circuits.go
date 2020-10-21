@@ -2,8 +2,8 @@
 package circuits
 
 import (
-	"github.com/consensys/gnark/backend/r1cs"
-	"github.com/consensys/gnark/frontend"
+	"github.com/philsippl/gnark/backend/r1cs"
+	"github.com/philsippl/gnark/frontend"
 )
 
 // TestCircuit are used for test purposes (backend.Groth16 and gnark/integration_test.go)

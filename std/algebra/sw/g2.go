@@ -17,9 +17,9 @@ limitations under the License.
 package sw
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/fields"
 	"github.com/consensys/gurvy/bls377"
+	"github.com/philsippl/gnark/frontend"
+	"github.com/philsippl/gnark/std/algebra/fields"
 )
 
 // G2Jac point in Jacobian coords

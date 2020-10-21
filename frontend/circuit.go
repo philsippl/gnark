@@ -4,9 +4,9 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/r1cs"
 	"github.com/consensys/gurvy"
+	"github.com/philsippl/gnark/backend"
+	"github.com/philsippl/gnark/backend/r1cs"
 )
 
 // Circuit must be implemented by user-defined circuits

@@ -21,8 +21,8 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/consensys/gnark/crypto/accumulator/merkletree"
-	"github.com/consensys/gnark/std/accumulator/merkle"
+	"github.com/philsippl/gnark/crypto/accumulator/merkletree"
+	"github.com/philsippl/gnark/std/accumulator/merkle"
 )
 
 // BatchSize size of a batch of transactions to put in a snark

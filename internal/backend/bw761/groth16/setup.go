@@ -24,9 +24,9 @@ import (
 	curve "github.com/consensys/gurvy/bw761"
 	"github.com/consensys/gurvy/bw761/fr"
 
-	bw761backend "github.com/consensys/gnark/internal/backend/bw761"
+	bw761backend "github.com/philsippl/gnark/internal/backend/bw761"
 
-	"github.com/consensys/gnark/internal/backend/bw761/fft"
+	"github.com/philsippl/gnark/internal/backend/bw761/fft"
 )
 
 // ProvingKey is used by a Groth16 prover to encode a proof of a statement
