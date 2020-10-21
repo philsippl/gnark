@@ -231,3 +231,8 @@ func ReadProof(path string) (Proof, error) {
 	}
 	return proof, err
 }
+
+// GetBN256Proof returns an empty proof
+func GetBN256Proof(path string) groth16_bn256.Proof {
+	return &groth16_bn256.Proof{}
+}
